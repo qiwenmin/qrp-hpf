@@ -1,0 +1,465 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "QRP HPF"
+Date "2019-04-30"
+Rev "v01"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Author: BG1REN"
+$EndDescr
+$Comp
+L Device:L L1
+U 1 1 5CC7CD26
+P 3500 3650
+F 0 "L1" H 3553 3696 50  0000 L CNN
+F 1 "5.66u" H 3553 3605 50  0000 L CNN
+F 2 "Inductor_THT:L_Toroid_Vertical_L14.0mm_W5.6mm_P5.30mm_Bourns_5700" H 3500 3650 50  0001 C CNN
+F 3 "~" H 3500 3650 50  0001 C CNN
+	1    3500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L2
+U 1 1 5CC7D986
+P 4000 3650
+F 0 "L2" H 4053 3696 50  0000 L CNN
+F 1 "2.59u" H 4053 3605 50  0000 L CNN
+F 2 "Inductor_THT:L_Toroid_Vertical_L14.0mm_W5.6mm_P5.30mm_Bourns_5700" H 4000 3650 50  0001 C CNN
+F 3 "~" H 4000 3650 50  0001 C CNN
+	1    4000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L3
+U 1 1 5CC81114
+P 4500 3650
+F 0 "L3" H 4553 3696 50  0000 L CNN
+F 1 "2.37u" H 4553 3605 50  0000 L CNN
+F 2 "Inductor_THT:L_Toroid_Vertical_L14.0mm_W5.6mm_P5.30mm_Bourns_5700" H 4500 3650 50  0001 C CNN
+F 3 "~" H 4500 3650 50  0001 C CNN
+	1    4500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L4
+U 1 1 5CC81702
+P 5000 3650
+F 0 "L4" H 5053 3696 50  0000 L CNN
+F 1 "2.37u" H 5053 3605 50  0000 L CNN
+F 2 "Inductor_THT:L_Toroid_Vertical_L14.0mm_W5.6mm_P5.30mm_Bourns_5700" H 5000 3650 50  0001 C CNN
+F 3 "~" H 5000 3650 50  0001 C CNN
+	1    5000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L5
+U 1 1 5CC81C69
+P 5500 3650
+F 0 "L5" H 5553 3696 50  0000 L CNN
+F 1 "2.59u" H 5553 3605 50  0000 L CNN
+F 2 "Inductor_THT:L_Toroid_Vertical_L14.0mm_W5.6mm_P5.30mm_Bourns_5700" H 5500 3650 50  0001 C CNN
+F 3 "~" H 5500 3650 50  0001 C CNN
+	1    5500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L6
+U 1 1 5CC82272
+P 6000 3650
+F 0 "L6" H 6053 3696 50  0000 L CNN
+F 1 "5.66u" H 6053 3605 50  0000 L CNN
+F 2 "Inductor_THT:L_Toroid_Vertical_L14.0mm_W5.6mm_P5.30mm_Bourns_5700" H 6000 3650 50  0001 C CNN
+F 3 "~" H 6000 3650 50  0001 C CNN
+	1    6000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1.3
+U 1 1 5CC82BC9
+P 3750 3350
+F 0 "C1.3" V 3498 3350 50  0000 C CNN
+F 1 "470p" V 3589 3350 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3788 3200 50  0001 C CNN
+F 3 "~" H 3750 3350 50  0001 C CNN
+	1    3750 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C2.3
+U 1 1 5CC8331A
+P 4250 3350
+F 0 "C2.3" V 3998 3350 50  0000 C CNN
+F 1 "1000p" V 4089 3350 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4288 3200 50  0001 C CNN
+F 3 "~" H 4250 3350 50  0001 C CNN
+	1    4250 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C3.3
+U 1 1 5CC838F7
+P 4750 3350
+F 0 "C3.3" V 4498 3350 50  0000 C CNN
+F 1 "0p" V 4589 3350 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4788 3200 50  0001 C CNN
+F 3 "~" H 4750 3350 50  0001 C CNN
+	1    4750 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C4.3
+U 1 1 5CC83E61
+P 5250 3350
+F 0 "C4.3" V 4998 3350 50  0000 C CNN
+F 1 "1000p" V 5089 3350 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5288 3200 50  0001 C CNN
+F 3 "~" H 5250 3350 50  0001 C CNN
+	1    5250 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C5.3
+U 1 1 5CC8460A
+P 5750 3350
+F 0 "C5.3" V 5498 3350 50  0000 C CNN
+F 1 "470p" V 5589 3350 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5788 3200 50  0001 C CNN
+F 3 "~" H 5750 3350 50  0001 C CNN
+	1    5750 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1.2
+U 1 1 5CC87A3A
+P 3750 2850
+F 0 "C1.2" V 3498 2850 50  0000 C CNN
+F 1 "470p" V 3589 2850 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3788 2700 50  0001 C CNN
+F 3 "~" H 3750 2850 50  0001 C CNN
+	1    3750 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C2.2
+U 1 1 5CC8861C
+P 4250 2850
+F 0 "C2.2" V 3998 2850 50  0000 C CNN
+F 1 "56p" V 4089 2850 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4288 2700 50  0001 C CNN
+F 3 "~" H 4250 2850 50  0001 C CNN
+	1    4250 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C4.2
+U 1 1 5CC88FC0
+P 5250 2850
+F 0 "C4.2" V 4998 2850 50  0000 C CNN
+F 1 "56p" V 5089 2850 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5288 2700 50  0001 C CNN
+F 3 "~" H 5250 2850 50  0001 C CNN
+	1    5250 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C5.2
+U 1 1 5CC89444
+P 5750 2850
+F 0 "C5.2" V 5498 2850 50  0000 C CNN
+F 1 "470p" V 5589 2850 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5788 2700 50  0001 C CNN
+F 3 "~" H 5750 2850 50  0001 C CNN
+	1    5750 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1.1
+U 1 1 5CC89827
+P 3750 2350
+F 0 "C1.1" V 3498 2350 50  0000 C CNN
+F 1 "330p" V 3589 2350 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3788 2200 50  0001 C CNN
+F 3 "~" H 3750 2350 50  0001 C CNN
+	1    3750 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C2.1
+U 1 1 5CC89E60
+P 4250 2350
+F 0 "C2.1" V 3998 2350 50  0000 C CNN
+F 1 "20p" V 4089 2350 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4288 2200 50  0001 C CNN
+F 3 "~" H 4250 2350 50  0001 C CNN
+	1    4250 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C3.1
+U 1 1 5CC8A43D
+P 4750 2350
+F 0 "C3.1" V 4498 2350 50  0000 C CNN
+F 1 "470p" V 4589 2350 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4788 2200 50  0001 C CNN
+F 3 "~" H 4750 2350 50  0001 C CNN
+	1    4750 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C4.1
+U 1 1 5CC8A7C4
+P 5250 2350
+F 0 "C4.1" V 4998 2350 50  0000 C CNN
+F 1 "20p" V 5089 2350 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5288 2200 50  0001 C CNN
+F 3 "~" H 5250 2350 50  0001 C CNN
+	1    5250 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C5.1
+U 1 1 5CC8AD17
+P 5750 2350
+F 0 "C5.1" V 5498 2350 50  0000 C CNN
+F 1 "330p" V 5589 2350 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5788 2200 50  0001 C CNN
+F 3 "~" H 5750 2350 50  0001 C CNN
+	1    5750 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 3500 3500 3350
+Wire Wire Line
+	3500 2350 3600 2350
+Wire Wire Line
+	4000 3500 4000 3350
+Wire Wire Line
+	4000 2350 4100 2350
+Wire Wire Line
+	4000 2350 3900 2350
+Connection ~ 4000 2350
+Wire Wire Line
+	3600 2850 3500 2850
+Connection ~ 3500 2850
+Wire Wire Line
+	3500 2850 3500 2350
+Wire Wire Line
+	3600 3350 3500 3350
+Wire Wire Line
+	3900 2850 4000 2850
+Connection ~ 4000 2850
+Wire Wire Line
+	4000 2850 4000 2350
+Wire Wire Line
+	4000 2850 4100 2850
+Wire Wire Line
+	3900 3350 4000 3350
+Connection ~ 4000 3350
+Wire Wire Line
+	4000 3350 4100 3350
+Wire Wire Line
+	4400 2350 4500 2350
+Wire Wire Line
+	4900 2350 5000 2350
+Wire Wire Line
+	5400 2350 5500 2350
+Wire Wire Line
+	5900 2350 6000 2350
+Wire Wire Line
+	6000 2350 6000 2850
+Wire Wire Line
+	5400 2850 5500 2850
+Wire Wire Line
+	5900 2850 6000 2850
+Connection ~ 6000 2850
+Wire Wire Line
+	5900 3350 6000 3350
+Wire Wire Line
+	6000 3350 6000 3500
+Wire Wire Line
+	5600 3350 5500 3350
+Wire Wire Line
+	5100 3350 5000 3350
+Wire Wire Line
+	4600 3350 4500 3350
+Wire Wire Line
+	4400 2850 4500 2850
+Wire Wire Line
+	4500 3500 4500 3350
+Connection ~ 4500 3350
+Wire Wire Line
+	4500 3350 4400 3350
+Connection ~ 4500 2850
+Wire Wire Line
+	4500 2850 4500 2350
+Connection ~ 4500 2350
+Wire Wire Line
+	4500 2350 4600 2350
+Wire Wire Line
+	5000 3500 5000 3350
+Connection ~ 5000 3350
+Wire Wire Line
+	5000 3350 4900 3350
+Connection ~ 5000 2850
+Wire Wire Line
+	5000 2850 5100 2850
+Wire Wire Line
+	5000 2850 5000 2350
+Connection ~ 5000 2350
+Wire Wire Line
+	5000 2350 5100 2350
+Wire Wire Line
+	5500 3500 5500 3350
+Connection ~ 5500 3350
+Wire Wire Line
+	5500 3350 5400 3350
+Connection ~ 5500 2850
+Wire Wire Line
+	5500 2850 5600 2850
+Wire Wire Line
+	5500 2850 5500 2350
+Connection ~ 5500 2350
+Wire Wire Line
+	5500 2350 5600 2350
+Wire Wire Line
+	3500 2850 3500 3350
+Connection ~ 3500 3350
+Wire Wire Line
+	4000 2850 4000 3350
+Wire Wire Line
+	4500 2850 4500 3350
+Wire Wire Line
+	5000 2850 5000 3350
+Wire Wire Line
+	5500 2850 5500 3350
+Wire Wire Line
+	6000 2850 6000 3350
+Connection ~ 6000 3350
+Wire Wire Line
+	3500 3800 3500 4000
+Wire Wire Line
+	3500 4000 4000 4000
+Wire Wire Line
+	6000 4000 6000 3800
+Wire Wire Line
+	5500 3800 5500 4000
+Connection ~ 5500 4000
+Wire Wire Line
+	5500 4000 6000 4000
+Wire Wire Line
+	5000 3800 5000 4000
+Connection ~ 5000 4000
+Wire Wire Line
+	5000 4000 5500 4000
+Wire Wire Line
+	4500 3800 4500 4000
+Connection ~ 4500 4000
+Wire Wire Line
+	4500 4000 4750 4000
+Wire Wire Line
+	4000 3800 4000 4000
+Connection ~ 4000 4000
+Wire Wire Line
+	4000 4000 4500 4000
+Wire Wire Line
+	4750 4250 4750 4000
+Connection ~ 4750 4000
+Wire Wire Line
+	4750 4000 5000 4000
+Text GLabel 3000 3350 0    50   Input ~ 0
+IN
+Wire Wire Line
+	3000 3350 3500 3350
+Text GLabel 6500 3350 2    50   Input ~ 0
+OUT
+Wire Wire Line
+	6500 3350 6000 3350
+Text GLabel 2700 5050 0    50   Input ~ 0
+IN
+Wire Wire Line
+	2700 5050 2900 5050
+Text GLabel 4400 5050 2    50   Input ~ 0
+OUT
+$Comp
+L power:GND #PWR0101
+U 1 1 5CCA521E
+P 4750 4250
+F 0 "#PWR0101" H 4750 4000 50  0001 C CNN
+F 1 "GND" H 4755 4077 50  0000 C CNN
+F 2 "" H 4750 4250 50  0001 C CNN
+F 3 "" H 4750 4250 50  0001 C CNN
+	1    4750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5CCD8563
+P 5300 5000
+F 0 "#FLG0101" H 5300 5075 50  0001 C CNN
+F 1 "PWR_FLAG" H 5300 5173 50  0000 C CNN
+F 2 "" H 5300 5000 50  0001 C CNN
+F 3 "~" H 5300 5000 50  0001 C CNN
+	1    5300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5CCD8D68
+P 5300 5250
+F 0 "#PWR0104" H 5300 5000 50  0001 C CNN
+F 1 "GND" H 5305 5077 50  0000 C CNN
+F 2 "" H 5300 5250 50  0001 C CNN
+F 3 "" H 5300 5250 50  0001 C CNN
+	1    5300 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5000 5300 5250
+Text Notes 7150 4150 2    50   ~ 0
+L1, L6: T50-2 34T\nL2, L5: T50-2 23T\nL3, L4: T50-2 22T
+$Comp
+L Device:C C3.2
+U 1 1 5CCEE2EC
+P 4750 2850
+F 0 "C3.2" V 4498 2850 50  0000 C CNN
+F 1 "560p" V 4589 2850 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4788 2700 50  0001 C CNN
+F 3 "~" H 4750 2850 50  0001 C CNN
+	1    4750 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 2850 4500 2850
+Wire Wire Line
+	4900 2850 5000 2850
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5CCF6BE4
+P 3900 5050
+F 0 "J2" H 3818 4825 50  0000 C CNN
+F 1 "OUT" H 3818 4916 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3900 5050 50  0001 C CNN
+F 3 "~" H 3900 5050 50  0001 C CNN
+	1    3900 5050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 5050 4400 5050
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 5CCFD50A
+P 3100 5050
+F 0 "J1" H 3180 5092 50  0000 L CNN
+F 1 "IN" H 3180 5001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3100 5050 50  0001 C CNN
+F 3 "~" H 3100 5050 50  0001 C CNN
+	1    3100 5050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
